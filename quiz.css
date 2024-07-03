@@ -1,0 +1,67 @@
+html{
+
+    height: 100%;
+
+}
+
+body{
+
+    height: 100%;
+    margin: 0;
+
+}
+
+#container{
+
+    height: 100%;
+    background-color: chartreuse;
+
+}
+
+#topoTitulo{
+
+    height: 25%;
+    background-color: orange;
+
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    border: #ffffff;
+    background: #ffffff;
+    width: 25%;
+    height: auto;
+}
+
+.gap1{
+    width: 30px;
+}
+
+#meioPerguntas{
+
+    height: 23%;
+    background-color: crimson;
+
+}
+
+#meioLabels{
+
+    height: 7%;
+    background-color: gold;
+
+}
+
+#meioSelects{
+
+    height: 27%;
+    background-color: aquamarine;
+
+}
+
+#baixoResultado{
+
+    height: 18%;
+    background-color: darkmagenta;
+
+}
+

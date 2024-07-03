@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    
+    <!-- DIV Container - Para englobar as outras divs, tamanho total da página -->
+    <div id="container">
+
+        <!-- DIV Topo - Para o título e imagens -->
+        <div id="topoTitulo">
+            <img class="header"  src='images/header.png'>
+
+        </div>
+
+
+        <!-- DIV Perguntas - Para os cards de perguntas -->
+        <div id="meioPerguntas">
+            <div class="gap1"></div>
+
+            <div class="box"> </div>
+
+            <div class="gap2"></div>
+
+            <div class="box"> </div>
+
+            <div class="gap2"></div>
+
+            <div class="box"> </div>
+
+            <div class="gap1"></div>
+        </div>
+
+
+        <!-- DIV Labels - Para as labels informativas de escolha -->
+        <div id="meioLabels">
+            <label> Escolha sua resposta</label>
+            <br>
+            <label> Escolha sua resposta</label>
+            <br>
+            <label> Escolha sua resposta</label>
+            <br>
+
+
+        </div>
+
+
+        <!-- DIV Selects - Para os menus de select com as respostas -->
+        <div id="meioSelects">
+            <select id="selectMenu">
+                <option value="0">Escolha uma opção</option>
+                <option value="0">resposta 1</option>
+                <option value="0">resposta 2</option>
+                <option value="1">reposta 3</option>
+                <br>
+
+            </select>
+                <select id="selectMenu" name="">
+                    <option value="0">Escolha uma opção</option>
+                    <option value="1">opc1</option>
+                    <option value="2">opc2</option>
+                    <option value="3">opc3</option>
+                    <option value="4">opc4</option>
+            
+            
+                </select>
+                
+    <select id="selectMenu" name="">
+        <option value="0">Escolha uma opção</option>
+        <option value="1">opc1</option>
+        <option value="2">opc2</option>
+        <option value="3">opc3</option>
+        <option value="4">opc4</option>
+
+
+    </select>
+        </div>
+
+
+        <!-- DIV Resultado - Para a pontuação, resultado e botão de gerar pontos -->
+        <div id="baixoResultado">
+
+        </div>
+
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
