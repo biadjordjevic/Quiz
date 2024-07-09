@@ -20,41 +20,84 @@ body{
 
 #topoTitulo{
 
-    height: 25%;
-    background-color: orange;
-
-}
-.box{
     display: flex;
-    flex-direction: row;
-    border: #ffffff;
-    background: #ffffff;
-    width: 25%;
-    height: auto;
+    justify-content: center; 
+    align-items: center;
+    margin: auto;
 }
 
-.gap1{
-    width: 30px;
-}
+
 
 #meioPerguntas{
 
-    height: 23%;
+    height: 25%;
     background-color: crimson;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+   
+    align-content: center;
+    
 }
+
+.gap1{
+    width: 50px;
+}
+.gap2{
+    width: 15px;
+}
+
+span{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+   height: 15%;
+   margin-left: 25%;
+   margin-right: 25%;
+   margin-top: 5px;
+   font-size:x-large;
+    border: 2px solid rgb(139, 135, 135); /* Adiciona uma borda preta de 5px ao redor do contêiner */
+    border-radius: 10px;
+    background-color:rgb(139, 135, 135) ;
+}
+
+.box{
+    
+    width:30%;
+    height: 80%;
+    background-color: aliceblue;
+    border: 1px solid #ddd;
+}
+
+
 
 #meioLabels{
 
     height: 7%;
     background-color: gold;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    align-content: center;
+   
+   
+}
 
+.label{
+    font-size: x-large;
 }
 
 #meioSelects{
 
     height: 27%;
     background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
 
 }
 
